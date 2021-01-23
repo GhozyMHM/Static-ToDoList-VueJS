@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # todolist
 
 ## Project setup
@@ -22,3 +23,7 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+=======
+# Static-ToDoList-VueJS
+To Do List web based with static data from JSON inside the code source using Vue.js
+>>>>>>> fb1a251500744de67753517a47cdd36a52ca40af
