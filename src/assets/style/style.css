@@ -1,0 +1,59 @@
+html,
+body,
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#app {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #2c3e50;
+    min-height: 100vh;
+    height: auto;
+    color: rgb(146, 199, 243);
+    box-sizing: border-box;
+}
+
+.title {
+    background-color: rgb(146, 199, 243);
+    color: #2c3e50;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    position: sticky;
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+}
+
+.hometask {
+    padding: 0 90px;
+}
+
+.form-check {
+    padding-left: 0 !important;
+    position: relative;
+}
+
+.hometask label,
+.hometask input {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.hometask label {
+    margin-left: 0;
+}
+
+.hometask input {
+    float: right !important;
+    margin-left: 0 !important;
+    position: absolute;
+    right: 0;
+}
